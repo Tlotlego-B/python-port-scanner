@@ -1,19 +1,17 @@
 # Python Port Scanner
-Python networking tool that scans a target host for open ports using the socket module.
-A simple TCP port scanner written in Python.
+
+A lightweight TCP port scanner built in Python using socket programming.
 
 ## Features
-- Scans ports 1–1024
-- Detects open TCP ports
-- Uses Python socket module
+- Scan open TCP ports
+- Identify active services
+- Fast connection attempts
+- Beginner-friendly cybersecurity tool
+
+## How it works
+The scanner attempts to connect to ports on a target host. 
+If the connection succeeds, the port is marked as open.
 
 ## Usage
-
-python port_scanner.py
-
-Enter the target IP or domain when prompted.
-
-## Example
-
-Target: scanme.nmap.org
-Open Ports: 22, 80
+```bash
+python scanner.py
